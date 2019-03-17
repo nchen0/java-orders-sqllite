@@ -31,6 +31,10 @@ public class Agent {
 
     }
 
+    public void setAgentcode(long agentcode) {
+        this.agentcode = agentcode;
+    }
+
     public Set<Customer> getCustomer() {
         return customer;
     }

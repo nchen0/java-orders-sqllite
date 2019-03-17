@@ -31,6 +31,10 @@ public class Order {
 
     }
 
+    public void setOrdnum(long ordnum) {
+        this.ordnum = ordnum;
+    }
+
     public double getOrdamount() {
         return ordamount;
     }
